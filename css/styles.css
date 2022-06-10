@@ -1,9 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarala:wght@400;700&display=swap');
+
 *,
-:after,
-:before {
+::after,
+::before {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
 }
 
-head {
-  display: none;
+:root {
+  --font-cabecalho-color: #990003;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.cabecalho-imagem {
+  height: 70px;
+}
+
+.cabecalho-menu {
+  display: flex;
+  gap: 30px;
+}
+
+.cabecalho-menu-item {
+  font-family: 'Sarala', sans-serif;
+  color: var(--font-cabecalho-color);
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.conteudo {
+  margin-bottom: 50px;
+  border-top: 0.4px solid #e3e3e3;
+}
+
+.conteudo-um {
+  margin-top: 10px;
+  border-bottom: 0.4px solid #e3e3e3;
+}
+
+.conteudo-dois {
+  border-bottom: 0.4px solid #e3e3e3;
+}
+
+.conteudo-tres {
+  border-bottom: 0.4px solid #e3e3e3;
+}
+
+.conteudo-quatro {
+  border-bottom: 0.4px solid #e3e3e3;
+}
+
+.conteudo-cinco {
+  border-bottom: 0.4px solid #e3e3e3;
 }
